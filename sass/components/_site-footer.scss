@@ -1,9 +1,11 @@
 @use "../abstracts/" as *;
 
 .site-footer {
-  background-color: $footer-background-color;
+  background-color: $body-background-color;
   color: $footer-text-color;
+  text-align: center;
 
+  
   a {
     color: $footer-link-color;
     text-decoration: $footer-link-text-decoration;
